@@ -129,4 +129,7 @@
     <!-- FOD icon dim-->
     <bool name="config_targetUsesInKernelDimming">true</bool>
 
+    <!-- Whether key handler sends intent when changing slider position -->
+    <string name="config_alertSliderIntent">org.carbonrom.settings.slider_settings.UPDATE_SLIDER_POSITION</string>
+
 </resources>

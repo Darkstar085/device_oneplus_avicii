@@ -26,3 +26,6 @@
 
 # Health
 /(product|system/product)/vendor_overlay/[0-9]+/lib64/hw/android\.hardware\.health@2\.0-impl-2\.1\.so	u:object_r:vendor_file:s0
+
+# Data files
+/data/misc/camera/client_package_name                u:object_r:custom_camera_data_file:s0

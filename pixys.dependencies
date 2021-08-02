@@ -1,9 +1,8 @@
 [
   {
-    "repository": "android_device_oneplus_common",
+    "repository": "device_oneplus_common",
     "target_path": "device/oneplus/common",
-    "remote": "lineage",
-    "branch": "lineage-18.1"
+    "branch": "eleven"
   },
   {
     "repository": "kernel_oneplus_sm7250",

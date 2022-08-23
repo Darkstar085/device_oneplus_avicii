@@ -90,3 +90,15 @@ sh_binary {
     src: "init.qcom.sh",
     vendor: true,
 }
+
+cc_library_static {
+    name: "libinit_avicii",
+    recovery_available: true,
+    whole_static_libs: ["libbase"],
+    srcs: ["init_avicii.cpp"],
+    include_dirs: [
+        "system/libbase/include",
+        "system/core/init"
+    ],
+    shared_libs: ["libbase"],
+}

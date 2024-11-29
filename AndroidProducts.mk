@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_avicii.mk
+    $(LOCAL_DIR)/lineage_avicii.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_avicii-eng \
-    superior_avicii-user \
-    superior_avicii-userdebug
+    lineage_avicii-eng \
+    lineage_avicii-user \
+    lineage_avicii-userdebug

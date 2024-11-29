@@ -317,26 +317,26 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-superior
+    $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
-    FrameworksResCommon \
-    FrameworksResGeneric \
+    EvolutionFrameworksResCommon \
+    EvolutionSettingsProviderResCommon \
+    EvolutionSettingsResCommon \
+    EvolutionSystemUIResCommon \
+    EvolutionSettingsResTarget \
+    EvolutionSystemUIResTarget \
     FrameworksResTarget \
+    FaceUnlockServiceResCommon \
+    OPlusExtrasResCommon \
     OPlusFrameworksResCommon \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResCommon \
-    OPlusSettingsResTarget \
     OPlusSystemUIResCommon \
     OPlusSystemUIResTarget \
-    OPlusWifiResCommon \
-    SettingsProviderResGeneric \
-    SystemUIResCommon \
-    TelephonyResCommon \
-    WifiResCommon \
     WifiResTarget
     
 # Partitions
